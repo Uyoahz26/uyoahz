@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>UyoAhz</title>
+  
+  <subtitle>赵某某的Blog</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://uyoahz.cn/"/>
+  <updated>2022-07-23T18:03:13.952Z</updated>
+  <id>https://uyoahz.cn/</id>
+  
+  <author>
+    <name>UyoAhz</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>实习....</title>
+    <link href="https://uyoahz.cn/2021072258082/"/>
+    <id>https://uyoahz.cn/2021072258082/</id>
+    <published>2021-07-22T19:22:01.000Z</published>
+    <updated>2022-07-23T18:03:13.952Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;实习&quot;&gt;&lt;a href=&quot;#实习&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Win11 新版Office初体验</title>
+    <link href="https://uyoahz.cn/2021070729579/"/>
+    <id>https://uyoahz.cn/2021070729579/</id>
+    <published>2021-07-07T15:24:34.000Z</published>
+    <updated>2022-07-23T18:03:13.952Z</updated>
+    
+    <summary type="html">
+    
+      Maybe以前说过Win10将是最后一版Windows的员工辞职了，于是有了Windows11。手动狗头
+    
+    </summary>
+    
+    
+      <category term="Win11" scheme="https://uyoahz.cn/tags/Win11/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JAVA基础</title>
+    <link href="https://uyoahz.cn/2021070233701/"/>
+    <id>https://uyoahz.cn/2021070233701/</id>
+    <published>2021-07-02T18:27:57.000Z</published>
+    <updated>2022-07-23T18:03:13.952Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;byte 1字节&lt;br&gt;short 2字节&lt;br&gt;int 4字节&lt;br&gt;long 8字节&lt;br&gt;char 2字节（C语言中是1字节）可以存储一个汉字&lt;br&gt;float 4字节&lt;br&gt;double 8字节&lt;br&gt;boolean
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>集合、数据结构</title>
+    <link href="https://uyoahz.cn/2021062743798/"/>
+    <id>https://uyoahz.cn/2021062743798/</id>
+    <published>2021-06-27T14:29:30.000Z</published>
+    <updated>2022-07-23T18:03:13.952Z</updated>
+    
+    <summary type="html">
+    
+      好好记吧
+    
+    </summary>
+    
+    
+      <category term="集合" scheme="https://uyoahz.cn/tags/%E9%9B%86%E5%90%88/"/>
+    
+      <category term="数据结构" scheme="https://uyoahz.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux复习题</title>
+    <link href="https://uyoahz.cn/2021061926657/"/>
+    <id>https://uyoahz.cn/2021061926657/</id>
+    <published>2021-06-19T15:20:20.000Z</published>
+    <updated>2022-07-23T18:03:13.952Z</updated>
+    
+    <summary type="html">
+    
+      Linux复习题
+    
+    </summary>
+    
+    
+      <category term="复习题" scheme="https://uyoahz.cn/tags/%E5%A4%8D%E4%B9%A0%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>观《觉醒年代》后感</title>
+    <link href="https://uyoahz.cn/2021052910218/"/>
+    <id>https://uyoahz.cn/2021052910218/</id>
+    <published>2021-05-29T19:18:14.000Z</published>
+    <updated>2022-07-23T18:03:13.952Z</updated>
+    
+    <summary type="html">
+    
+      《觉醒年代》由中共北京市委宣传部、中共安徽省委宣传部、北京市广播电视局和安徽省广播电视局联合摄制，由北京北广传媒影视股份有限公司和安徽华星传媒投资有限公司承制。编剧：龙平平，导演：张永新，总制片人：刘国华，主演：于和伟、张桐、侯京健、马少骅、朱刚日尧、张晚意、曹磊、夏德俊等。
+    
+    </summary>
+    
+    
+      <category term="观后感" scheme="https://uyoahz.cn/tags/%E8%A7%82%E5%90%8E%E6%84%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>缅怀，国之脊梁！</title>
+    <link href="https://uyoahz.cn/2021052218174/"/>
+    <id>https://uyoahz.cn/2021052218174/</id>
+    <published>2021-05-22T14:00:38.000Z</published>
+    <updated>2022-07-23T18:03:13.952Z</updated>
+    
+    <summary type="html">
+    
+      山河同悲，日月同泣，愿先生走好。
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>前端面试题 1</title>
+    <link href="https://uyoahz.cn/2021051258943/"/>
+    <id>https://uyoahz.cn/2021051258943/</id>
+    <published>2021-05-12T19:11:06.000Z</published>
+    <updated>2022-07-23T18:03:13.952Z</updated>
+    
+    <summary type="html">
+    
+      前端中高级面试题
+    
+    </summary>
+    
+    
+      <category term="前端面试题" scheme="https://uyoahz.cn/tags/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安卓广播与服务</title>
+    <link href="https://uyoahz.cn/2021051035907/"/>
+    <id>https://uyoahz.cn/2021051035907/</id>
+    <published>2021-05-10T20:38:54.000Z</published>
+    <updated>2022-07-23T18:03:13.952Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;广播&quot;&gt;&lt;a href=&quot;#广播&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="安卓" scheme="https://uyoahz.cn/tags/%E5%AE%89%E5%8D%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>c3p0配置详解</title>
+    <link href="https://uyoahz.cn/2021042025770/"/>
+    <id>https://uyoahz.cn/2021042025770/</id>
+    <published>2021-04-20T20:46:53.000Z</published>
+    <updated>2022-07-23T18:03:13.952Z</updated>
+    
+    <summary type="html">
+    
+      c3p0的详细配置
+    
+    </summary>
+    
+    
+      <category term="JDBC" scheme="https://uyoahz.cn/tags/JDBC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Js页面跳转大全</title>
+    <link href="https://uyoahz.cn/202103212855/"/>
+    <id>https://uyoahz.cn/202103212855/</id>
+    <published>2021-03-21T13:14:52.000Z</published>
+    <updated>2022-07-23T18:03:13.952Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;JS页面跳转大全&quot;&gt;&lt;a href=&quot;#JS页面跳转大全&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://uyoahz.cn/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Androida开发艺术-2</title>
+    <link href="https://uyoahz.cn/2021031553262/"/>
+    <id>https://uyoahz.cn/2021031553262/</id>
+    <published>2021-03-15T22:01:20.000Z</published>
+    <updated>2022-07-23T18:03:13.952Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Android开发艺术探索-研读笔记&quot;&gt;&lt;a href=&quot;#Android开发艺术探索-研读笔记&quot; class=&quot;headerlink&quot; title=&quot;Android开发艺术探索(研读笔记)&quot;&gt;&lt;/a&gt;Android开发艺术探索(研读笔记)&lt;/h1&gt;&lt;h2
+        
+      
+    
+    </summary>
+    
+      <category term="安卓" scheme="https://uyoahz.cn/categories/%E5%AE%89%E5%8D%93/"/>
+    
+    
+      <category term="安卓" scheme="https://uyoahz.cn/tags/%E5%AE%89%E5%8D%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SQL基础</title>
+    <link href="https://uyoahz.cn/2021021461902/"/>
+    <id>https://uyoahz.cn/2021021461902/</id>
+    <published>2021-02-14T19:17:11.000Z</published>
+    <updated>2022-07-23T18:03:13.952Z</updated>
+    
+    <summary type="html">
+    
+      SQL语句基础概念和一些基础用法
+    
+    </summary>
+    
+    
+      <category term="SQL" scheme="https://uyoahz.cn/tags/SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android开发艺术 1</title>
+    <link href="https://uyoahz.cn/2021011439334/"/>
+    <id>https://uyoahz.cn/2021011439334/</id>
+    <published>2021-01-14T19:27:35.000Z</published>
+    <updated>2022-07-23T18:03:13.952Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Android开发艺术探索-研读笔记&quot;&gt;&lt;a href=&quot;#Android开发艺术探索-研读笔记&quot; class=&quot;headerlink&quot; title=&quot;Android开发艺术探索(研读笔记)&quot;&gt;&lt;/a&gt;Android开发艺术探索(研读笔记)&lt;/h1&gt;&lt;h2
+        
+      
+    
+    </summary>
+    
+      <category term="安卓" scheme="https://uyoahz.cn/categories/%E5%AE%89%E5%8D%93/"/>
+    
+    
+      <category term="安卓" scheme="https://uyoahz.cn/tags/%E5%AE%89%E5%8D%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计网复习题</title>
+    <link href="https://uyoahz.cn/2020121462761/"/>
+    <id>https://uyoahz.cn/2020121462761/</id>
+    <published>2020-12-14T18:39:16.000Z</published>
+    <updated>2022-07-23T18:03:13.952Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;考点：&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;TCP/IP 五层协议或OSI 七层参考模型&lt;/li&gt;&lt;li&gt;CRC 检验码或海明码&lt;/li&gt;&lt;li&gt;子网划分&lt;/li&gt;&lt;li&gt;IP数据报分片&lt;/li&gt;&lt;li&gt;TCP 和 UDP
+        
+      
+    
+    </summary>
+    
+    
+      <category term="复习题" scheme="https://uyoahz.cn/tags/%E5%A4%8D%E4%B9%A0%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://uyoahz.cn/2020100316107/"/>
+    <id>https://uyoahz.cn/2020100316107/</id>
+    <published>2020-10-03T11:51:28.000Z</published>
+    <updated>2022-07-23T18:03:13.952Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="https://uyoahz.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+</feed>
