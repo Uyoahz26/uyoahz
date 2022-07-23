@@ -7,8 +7,8 @@ authorAbout: 集中精神，以气御剪
 authorDesc: 一个好奇的人
 comments: true
 photos:
-  - 'https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/blogImg/img/win11.jpg'
-  - 'https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/blogImg/img/win11.jpg'
+  - 'https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/blogImg/img/Win11.jpg'
+  - 'https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/blogImg/img/Win11.jpg'
 abbrlink: 29579
 tags: Win11
 description: Maybe以前说过Win10将是最后一版Windows的员工辞职了，于是有了Windows11。手动狗头

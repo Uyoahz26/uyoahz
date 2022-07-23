@@ -56,5 +56,10 @@ links:
       name: 春天和爱情の樱花~🌸
       desc: 一半是现实，一半是梦想~ 一念花开，一念花落~
 
+    - url: https://moechun.fun/
+      img: https://img.moechun.fun/avatar/hanajiang-2.png
+      name: 闪闪の小窝
+      desc: 玩累了…就睡觉！没问题的！
+
     
 ---

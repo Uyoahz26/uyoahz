@@ -86,7 +86,7 @@ donate:
 movies:
   url: https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/mp4
   # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
-  name: bgmp4.mp4,mengqi.mp4,kenan.mp4,20210606153748.mp4,20210606153826.mp4,manhua.mp4
+  name: bgmp4.mp4,mengqi.mp4,kenan.mp4,20210606153748.mp4,20210606153826.mp4,manhua.mp4,alllice.mp4,shuye.mp4,iuiuiu.mp4,ncqy.mp4,xjzy.mp4
 
   
 

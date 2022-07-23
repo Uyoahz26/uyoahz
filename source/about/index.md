@@ -13,6 +13,21 @@ photos: https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/blogImg/img/bann
 <img src="https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/banner/wsfw.jpg"/>
 </center>
 
+<!-- <div class="note info">这里是 info 标签样式</div> 
+
+<div class="note info no-icon">这里是不带符号的 info 标签样式</div> 
+
+<div class="note primary">这里是 primary 标签样式</div> 
+
+<div class="note primary no-icon">这里是不带符号的 primary 标签样式</div> 
+
+<div class="note warning">这里是 warning 标签样式</div> 
+
+<div class="note warning no-icon">这里是不带符号的 warning 标签样式</div> 
+
+<div class="note danger">这里是 danger 标签样式</div>
+
+ <div class="note danger no-icon">这里是不带符号的 danger 标签样式</div> -->
 
 
 {% raw %}
