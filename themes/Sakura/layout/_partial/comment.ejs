@@ -1,0 +1,112 @@
+<% if (theme.valine && post.comments) { %>
+
+
+  <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.-.0/css/all.css" rel="stylesheet">
+  <div id="vcomments"></div>
+  <!-- <script src="https://kit.fontawesome.com/51cb151ac8.js" crossorigin="anonymous"></script> -->
+  <!-- 先引入样式,从footer提前 -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+  <!-- <script src="//unpkg.com/valine/dist/Valine.min.js"></script> -->
+
+<script src="https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/js/Valine144.min.js"></script>
+<!-- <script src="../js/valine.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js"></script> -->
+
+
+<style>
+ .v .veditor{min-height: 10rem;
+     background-image: url(https://cdn.jsdelivr.net/gh/cungudafa/img/images/girls2.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: right;
+     background-color: rgba(255,255,255,0);
+     resize: none;}
+img.vimg {
+     transition: all 1s   /* 旋转时间为 1s */
+}
+
+img.vimg:hover {
+     transform: rotate(360deg);
+     -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+     -o-transform: rotate(360deg);
+     -ms-transform: rotate(360deg);
+}
+
+#vcomments .vcards .vcard {
+	padding: 15px 20px 0 20px;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	box-shadow: 0 0 4px 1px rgba(0, 0, 0, .12);
+	transition: all .3s
+}
+
+#vcomments .vcards .vcard:hover {
+	box-shadow: 0 0 8px 3px rgba(0, 0, 0, .12)
+}
+
+#vcomments .vcards .vcard .vh .vcard {
+	border: none;
+	box-shadow: none;
+}
+
+.v .vcards .vcard .vcontent{
+  margin-top: -1.0em;
+}
+span.vnum {
+    font-size: xxx-large;
+}
+button.vsubmit.vbtn {
+    background-color: #00a0ff;
+    border: none;
+    height: 36px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+}
+.v .vcards .vcard .vhead .vnick{
+  color: #4789d9;
+  font-size: inherit;
+  font-weight: bolder;
+}
+
+.v .vsys {
+  background: #FF6263;
+    color: white;
+    font-size: xx-small;
+    border-radius: 10em;
+    padding: 0.2em 1em;
+}
+
+
+</style>
+<script>
+ new Valine({
+     el: '#vcomments',
+     lang: 'zh-cn',
+     admin_email: '2496091142@qq.com',//博主邮箱
+     appId: "<%= theme.valine.appId %>",
+     appKey: "<%= theme.valine.appKey %>",
+     path: window.location.pathname,
+     comment_count: true,
+     notify: true, // 邮件提醒!使用第三方就不要添加这个!!
+     //verify: true, //验证码
+     avatar: 'monsterid',//小怪物头像
+     placeholder: "集中精神，以气御剪 ..."
+ });
+
+//  new Valine({
+//         el: '#vcomments',
+//         appId: '<%= theme.valine.appId %>',
+//         appKey: '<%= theme.valine.appKey %>',
+//         master: 'f95a0ad4c97981d1c97cccd69f935b12',   //博主邮箱md5
+//         tagMeta: ["博主","小伙伴","访客"],     //标识字段名
+//         friends:  ["1ebbf6d4564a0e2a5c661657f42a8321","6f66d08ae651794d3f27fc0c7349c510"],  //小伙伴邮箱Md5
+//         metaPlaceholder: {"nick":"昵称/QQ号","mail":"邮箱（完全保密）"},
+//         placeholder: "填写邮箱可以及时收到回复哦(●'◡'●)",
+//         avatar: 'wavatar',
+//         enableQQ: true,
+//     });
+
+</script>
+<% } %>

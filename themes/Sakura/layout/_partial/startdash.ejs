@@ -1,0 +1,79 @@
+
+<div class="top-feature-row">
+
+  <h1 class="fes-title" style="font-family: 'Ubuntu', sans-serif;font-size: larger;font-weight: 800;">
+  <i class="fa fa-paint-brush" aria-hidden="true" style="margin-right: 9px;">
+  </i>一言</h1> 
+  <!-- <% for (dash in theme.startdash) { %>
+
+    
+
+  <div class="top-feature-v2">
+    
+    <div class="the-feature square from_left_and_right">
+      <a href="<%= theme.startdash[dash].url %>" target="_blank">
+        <div class="img">
+          <img src="<%- (theme.cdn || '') + theme.startdash[dash].img %>">
+        </div>
+        <div class="info">
+          <h3><%= theme.startdash[dash].title %></h3>
+          <p><%= theme.startdash[dash].desc %></p>
+        </div>
+      </a>
+      
+    </div>
+  </div>
+  <% } %> -->
+  <p id="hitokoto">正在加载一言...</p>
+  <style>
+    #hitokoto{
+      text-align: center;
+      background-color: #30414f12;
+      line-height: 60px;
+      margin-bottom: -20px;
+      margin-top: -10px;
+      border-radius: 10px;
+      font-family: cursive;
+      font-size: large;
+      font-weight: 500;
+      border: 4px double white;
+    }
+  </style>
+  <!-- 一言API -->
+<!-- 现代写法，推荐 -->
+<!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
+<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+<!--End-->
+<script>
+  fetch('https://v1.hitokoto.cn')
+    .then(function (res){
+      return res.json();
+    })
+    .then(function (data) {
+      var hitokoto = document.getElementById('hitokoto');
+      hitokoto.innerText = data.hitokoto + '——【' + data.from + '】';
+    })
+    .catch(function (err) {
+      console.error(err);
+    })
+</script>
+  <!-- <div id="bbTimeList" class="bbTimeList container">latest</div>
+  <div class="swiper-container swiper-container-aside">
+    <div class="swiper-wrapper swiper-weapper-aside"></div>
+  </div>
+  
+  <script>
+    window.kkBBConfig = {
+      // 如果使用API 那么此字段表示读取的数量
+      limit: 9,
+      // 点击后跳转的链接
+      blog:'/daodao/',
+      // api地址，可以是json文件地址 也可以是api地址
+      api_url:
+        'https://6262-bber-2g6eo6w3a44db02e-1258635493.tcb.qcloud.la/json/bber.json?sign=ed8cb8802ee3784b217308b8371baa4e&t=1621344086'
+    }
+  </script>
+  <script src="./js/index.min.js"></script> -->
+</div>
+<!-- <script src="https://cdn.jsdelivr.net/npm/butterfly-bber-swiper@1.0.0/dist/index.min.js"></script> -->

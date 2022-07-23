@@ -1,0 +1,168 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: UyoAhz
+subtitle: 赵某某的Blog
+description: 赵某某Blog,咱赵某人自己的Blog,
+keywords: UyoAhz,赵某某,Blog,博客,uyoahz,演员uyoahz
+author: UyoAhz
+language: zh-CN
+timezone:
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://uyoahz.cn
+root: /
+# permalink: :year/:month/:day/:title/
+permalink: :year:month:day:abbrlink/ 
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+# category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight: 
+  enable: false
+  line_number: false
+  auto_detect: false
+  tab_replace:
+  
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+  
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: Sakura
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+- type: git
+  repository:
+      # repo: https://gitee.com/uyoahz/uyoahz.git
+      # coding: https://e.coding.net/cloudbase-100009217188/uyoahz/uyoahz.git
+      github: https://github.com/Uyoahz26/uyoahz.git
+      # github: https://github.com/honjun/honjun.github.io.git
+      # coding: https://git.coding.net/hojun/hojun.git
+      branch: master 
+# - type: baidu_url_submitter
+
+# backup
+backup:
+  type: git
+  message: backup my blog of https://yourname.github.io/
+  repository:
+    github: https://github.com/Uyoahz26/uyaohzproject.git,master
+    # coding: https://git.coding.net/hojun/hojun.git,backup
+  
+
+#RSS
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+
+
+bangumi:
+  enable: true
+  path: bangumi/index.html
+  vmid: 380012768
+  title: '追番列表'
+  quote: <style>blockquote{margin-top:70px;}.openNav.no-select{background-color:#efa41c;}</style><h2>生命不息，追番不止！</h2>
+  show: 1
+  loading:
+  metaColor: black
+  color: black
+  webp:
+  progress: true
+
+# hexo-neat
+
+neat_enable: false
+# neat_enable: true
+
+
+neat_html:
+  enable: true
+  exclude:
+  
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
+
+
+
+
+douban:
+  user: 191463289
+  builtin: true
+  movie:
+    title: '电影'
+    quote: <style>blockquote{margin-top:70px;}.openNav.no-select{background-color:#efa41c;}</style><h3>电影不是爱情，我们才是！</h3>
+    length: 2
+    # valine_id: WbLE88qfAcz4hSI5 #事实上可以不写甚至删除
+    # valine_key: ycqjmtEfUxuxD  #同样可以不写甚至删除
+  timeout: 10000
+
+
+baidu_url_submit:
+  count: 10           # 提交最新的多少个链接
+  host: https://uyoahz.cn    # 在百度站长平台中添加的域名
+  token: Ys6sA4IpzSlSZmJ8      # 秘钥Ys6sA4IpzSlSZmJ8
+  path: baidu_urls.txt   # 文本文档的地址， 新链接会保存在此文本文档里

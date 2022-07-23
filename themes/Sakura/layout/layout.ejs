@@ -1,0 +1,117 @@
+
+
+<%- partial('_partial/head') %>
+
+<script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">-->
+  <!-- <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script> -->
+  <!-- 点击出现社会主义彩色文字 -->
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/shehuizhuyi.js"></script>
+  <!-- 球形标签 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/css/tag-bubble.css">
+  <script src="https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/js/bubble.js"></script>
+
+
+
+
+<script>
+endebug(false, function () {
+		window.location.href = 'https://uyoahz.cn/console.html'
+	});
+
+function endebug(off, code) {
+		if (!off) {
+			!(function (e) {
+				function n(e) {
+					function n() {
+						return u
+					}
+					function o() {
+						window.Firebug && window.Firebug.chrome && window.Firebug.chrome.isInitialized ? t('on') : ((a = 'off'), console.log(d), console.clear(), t(a))
+					}
+					function t(e) {
+						u !== e && ((u = e), 'function' == typeof c.onchange && c.onchange(e))
+					}
+					function r() {
+						l || ((l = !0), window.removeEventListener('resize', o), clearInterval(f))
+					}
+					'function' == typeof e &&
+						(e = {
+							onchange: e
+						})
+					var i = (e = e || {}).delay || 500,
+						c = {}
+					c.onchange = e.onchange
+					var a,
+						d = new Image()
+					d.__defineGetter__('id', function () {
+						a = 'on'
+					})
+					var u = 'unknown'
+					c.getStatus = n
+					var f = setInterval(o, i)
+					window.addEventListener('resize', o)
+					var l
+					return (c.free = r), c
+				}
+				var o = o || {}
+				;(o.create = n),
+					'function' == typeof define
+						? (define.amd || define.cmd) &&
+						  define(function () {
+								return o
+						  })
+						: 'undefined' != typeof module && module.exports
+						? (module.exports = o)
+						: (window.jdetects = o)
+			})(),
+				jdetects.create(function (e) {
+					var a = 0
+					var n = setInterval(function () {
+						if ('on' == e) {
+							setTimeout(function () {
+								if (a == 0) {
+									a = 1
+									setTimeout(code)
+								}
+							}, 200)
+						}
+					}, 100)
+				})
+		}
+	};
+  </script>
+
+  <body
+    class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
+    <div class="scrollbar" id="bar">
+    </div>
+    <a href="#" class="cd-top faa-float animated"></a>
+    <section id="main-container">
+      <%- partial('_partial/headertop', null, {cache: !config.relative_link}) %>
+        <div id="page" class="site wrapper">
+          <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
+            <%- body %>
+        </div>
+        <%- partial('_widget/search/insight') %>
+          <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
+            <div class="openNav no-select" style="height: 50px;">
+              <div class="iconflat no-select" style="width: 50px; height: 50px;">
+                <div class="icon"></div>
+              </div>
+              <div class="site-branding search-form-submit">
+                <i class="iconfont js-toggle-search iconsearch icon-search"></i>
+              </div>
+            </div>
+    </section>
+    <%- partial('_partial/mheader', null, {cache: !config.relative_link}) %>
+    
+  <%- partial('_partial/left', null, {cache: !config.relative_link}) %>
+
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+
+
+  </html>
