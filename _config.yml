@@ -13,8 +13,11 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://uyoahz.cn
-root: /
+# url: https://uyoahz.cn
+# root: /
+url: https://uyoahz26.github.io/uyoahz
+root: uyoahz
+
 # permalink: :year/:month/:day/:title/
 permalink: :year:month:day:abbrlink/ 
 permalink_defaults:
@@ -79,14 +82,14 @@ theme: Sakura
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-- type: git
-  repository:
+  type: git
+  # repository:
       # repo: https://gitee.com/uyoahz/uyoahz.git
       # coding: https://e.coding.net/cloudbase-100009217188/uyoahz/uyoahz.git
-      github: https://github.com/Uyoahz26/uyoahz.git
-      # github: https://github.com/honjun/honjun.github.io.git
+  repo: git@github.com:Uyoahz26/uyoahz.git
+      # repo: https://gitee.com/uyoahz/uyoahz.git
       # coding: https://git.coding.net/hojun/hojun.git
-      branch: master 
+  branch: gh-pages
 # - type: baidu_url_submitter
 
 # backup
