@@ -13,8 +13,8 @@ tags: JavaScript
 keywords: js页面跳转 
 description:
 photos: 
-      - https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/post/js1.jpg
-      - https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/post/js1.jpg
+      - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/post/js1.jpg
+      - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/post/js1.jpg
 ---
 
 # JS页面跳转大全

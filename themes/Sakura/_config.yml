@@ -12,7 +12,7 @@ pjax: 1
 mathjax: 0
 
 notice: 随缘更新~
-lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
+lazyloadImg: https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/loader/orange.progress-bar-stripe-loader.svg
 
 menus:
   首页: { path: /, fa: fa-fort-awesome faa-shake }
@@ -38,17 +38,17 @@ homePageSortType: -1
 homeArticleShown: 10
 # 背景图片 更好的修改
 bg:
-  - https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/cover/iu.jpg
-  - https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/cover/iu2.jpg
-  - https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/cover/ui3.jpg
-  - https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/cover/567.jpg
-  - https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/cover/mh13.jpg
-  - https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/cover/mh14.jpg
-  - https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/cover/IMG_20210526_212944.jpg
-  - https://cdn.jsdelivr.net/gh/Uyoahz26/ImgBed@main/img/banner/20210606154950.jpg
-  - https://cdn.jsdelivr.net/gh/Uyoahz26/ImgBed@main/img/banner/xiaobai.jpg
-  - https://cdn.jsdelivr.net/gh/Uyoahz26/ImgBed@main/img/banner/xiaobai2.jpg
-  - https://cdn.jsdelivr.net/gh/Uyoahz26/ImgBed@main/img/banner/xiaobai3.jpg
+  - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/cover/iu.jpg
+  - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/cover/iu2.jpg
+  - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/cover/ui3.jpg
+  - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/cover/567.jpg
+  - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/cover/mh13.jpg
+  - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/cover/mh14.jpg
+  - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/cover/IMG_20210526_212944.jpg
+  - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/blogImg/img/banner/20210606154950.jpg
+  - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/blogImg/img/banner/xiaobai.jpg
+  - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/blogImg/img/banner/xiaobai2.jpg
+  - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/blogImg/img/banner/xiaobai3.jpg
 
 
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
@@ -67,9 +67,9 @@ siteBuildingTime: 02/02/2020
 
 #social  url, img PC端配置
 social:
-  sina: {url: https://m.weibo.cn/u/1223178222, img: https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/social/sina.png}
-  wangyiyun: {url: https://music.163.com/#/user/home?id=325959179, img: https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/social/wangyiyun.png}
-  wechat: {url: /#, qrcode: https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/custom/weixin.jpg, img: https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/social/wechat.png}
+  sina: {url: https://m.weibo.cn/u/1223178222, img: https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/social/sina.png}
+  wangyiyun: {url: https://music.163.com/#/user/home?id=325959179, img: https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/social/wangyiyun.png}
+  wechat: {url: /#, qrcode: https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/custom/weixin.jpg, img: https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/social/wechat.png}
 
 #social  url, img 移动端配置
 # msocial:
@@ -78,20 +78,20 @@ social:
 #   qq: {url: https://wpa.qq.com/msgrd?v=3&uin=954655431&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
 
 donate:
-  alipay: https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/custom/donate/zfb.jpg
-  wechat: https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/custom/donate/wechat.png
-  wechatSQ: https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/custom/donate/wxzs.jpg
+  alipay: https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/custom/donate/zfb.jpg
+  wechat: https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/custom/donate/wechat.png
+  wechatSQ: https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/custom/donate/wxzs.jpg
 
 # 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
 movies:
-  url: https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/mp4
+  url: https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/mp4
   # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
   name: bgmp4.mp4,mengqi.mp4,kenan.mp4,20210606153748.mp4,20210606153826.mp4,manhua.mp4
 
   
 
 # 背景音乐
-bg_music: https://cdn.jsdelivr.net/gh/Uyoahz26/ImgBed@main/mp3/20210606162136.mp3
+bg_music: https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/blogImg/mp3/20210606162136.mp3
 
 
 

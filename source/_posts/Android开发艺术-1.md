@@ -14,8 +14,8 @@ type: categories
 keywords:
 description:
 photos: 
-  - https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/post/android1.webp
-  - https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/post/android1.webp
+  - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/post/android1.webp
+  - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/post/android1.webp
 ---
 
 # Android开发艺术探索(研读笔记)
@@ -43,7 +43,7 @@ Activity的生命周期分为两个部分
 -  **onDestroy** ：表示`Activity`即将被销毁。可以进行一些回收工作和最终的资源释放。
 
 
-![Activity的生命周期](https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/post/activity1.gif)
+![Activity的生命周期](https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/post/activity1.gif)
 
 **注意：**
 - **onStart和onStop是从Activity是否可见这个角度来回调的**

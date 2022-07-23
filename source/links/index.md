@@ -5,7 +5,7 @@ date: 2018-12-19 23:11:06
 keywords: 友人帐
 description: 
 comments: true
-photos: https://cdn.jsdelivr.net/gh/Uyoahz26/ImgBed@main/img/linkbg.jpg
+photos: https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/blogImg/img/linkbg.jpg
 links:
   - group: 大佬们
     desc: 这就是强者的世界吗

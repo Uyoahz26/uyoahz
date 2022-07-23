@@ -4,7 +4,7 @@ date: 2018-12-20 23:13:48
 keywords: 留言板
 description: 
 comments: true
-photos: https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/banner/comment.jpg
+photos: https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/banner/comment.jpg
 ---
 
 <center>

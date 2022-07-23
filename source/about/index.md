@@ -4,13 +4,13 @@ date: 2018-12-12 22:14:36
 keywords: 关于
 description: 
 comments: false
-photos: https://cdn.jsdelivr.net/gh/Uyoahz26/ImgBed@main/img/banner/20210606154950.jpg
+photos: https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/blogImg/img/banner/20210606154950.jpg
 ---
 
 <!-- <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/sakura.js"></script> -->
 <!-- <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/xuehuapiaoluo.js"></script> -->
 <center>
-<img src="https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/banner/wsfw.jpg"/>
+<img src="https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/banner/wsfw.jpg"/>
 </center>
 
 

@@ -8,8 +8,8 @@ authorDesc: 一个好奇的人
 categories: 教程
 comments: true
 photos: 
-    - https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/cover/iu.jpg
-    - https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/cover/iu.jpg
+    - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/cover/iu.jpg
+    - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/cover/iu.jpg
 abbrlink: 16107
 date: 2020-10-03 11:51:28
 keywords:

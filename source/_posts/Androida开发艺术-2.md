@@ -9,8 +9,8 @@ categories: 安卓
 comments: true
 abbrlink: 53262
 photos: 
-  - https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/post/android1.webp
-  - https://cdn.jsdelivr.net/gh/Uyoahz26/cdn@master/img/post/android1.webp
+  - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/post/android1.webp
+  - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/cdn/img/post/android1.webp
 date: 2021-03-15 22:01:20
 tags: 安卓
 keywords:

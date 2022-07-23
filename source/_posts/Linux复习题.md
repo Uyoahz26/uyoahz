@@ -7,8 +7,8 @@ authorAbout: rm -rf/*大法好啊
 authorDesc: 一个好奇的人
 comments: true
 photos:
-  - https://cdn.jsdelivr.net/gh/Uyoahz26/ImgBed@main/img/linux1.jpg
-  - https://cdn.jsdelivr.net/gh/Uyoahz26/ImgBed@main/img/linux2.jpg
+  - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/blogImg/img/linux1.jpg
+  - https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/blogImg/img/linux2.jpg
 abbrlink: 26657
 date: 2021-06-19 15:20:20
 categories:

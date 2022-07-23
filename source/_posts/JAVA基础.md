@@ -7,8 +7,8 @@ authorAbout: 集中精神，以气御剪
 authorDesc: 一个好奇的人
 comments: true
 photos:
-  - 'https://cdn.jsdelivr.net/gh/Uyoahz26/ImgBed@main/img/Javadata1.png'
-  - 'https://cdn.jsdelivr.net/gh/Uyoahz26/ImgBed@main/img/Javadata1.png'
+  - 'https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/blogImg/img/Javadata1.png'
+  - 'https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/blogImg/img/Javadata1.png'
 abbrlink: 33701
 date: 2021-07-02 18:27:57
 categories:
@@ -27,7 +27,7 @@ double   8字节
 boolean  false/true(理论上占用1bit,1/8字节，实际处理按1byte处理)       
 JAVA是采用Unicode编码。每一个字节占8位。你电脑系统应该是 32位系统，这样每个int就是 4个字节
 其中一个字节由8个二进制位组成
-![](https://cdn.jsdelivr.net/gh/Uyoahz26/ImgBed@main/img/javadata.png)
+![](https://blog-img-1258635493.cos.ap-chengdu.myqcloud.com/blogImg/img/javadata.png)
 Java一共有8种基本数据类型（原始数据类型）：     
 类型  存储要求 范围（包含） 默认值 包装类
 整 int 4字节（32位） -231~ 231-1 0 Integer
